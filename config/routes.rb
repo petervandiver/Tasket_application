@@ -1,4 +1,21 @@
 Rails.application.routes.draw do
+  devise_for :users
+  
+  get 'static_pages/home'
+
+  get 'static_pages/about'
+
+  root to: "static_pages#home" #controller#action
+
+  get '/static_pages' => 'static_pages#home', as: 'static_pages'
+  
+  get '/welcome' => 'static_pages#welcome', as: 'welcome'
+
+  # devise_for :users, controllers: {
+  #   registrations: 'user/registrations'
+  # }
+
+
   resources :tasks
 
   resources :taskets
