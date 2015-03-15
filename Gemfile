@@ -1,5 +1,11 @@
 source 'https://rubygems.org'
 
+gem 'bootstrap_form'
+ 
+gem 'bootstrap-sass'
+
+gem 'activeadmin', github: 'activeadmin'
+
 gem 'devise'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.0'
