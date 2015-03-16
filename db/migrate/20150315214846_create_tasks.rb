@@ -6,7 +6,7 @@ class CreateTasks < ActiveRecord::Migration
       t.string :due_date
       t.string :due_time
       t.string :status
-      t.string :tasket_id
+      t.integer :tasket_id
 
       t.timestamps null: false
     end
