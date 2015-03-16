@@ -1,6 +1,6 @@
 <p id="notice"><%= notice %></p>
 
-<h1>Listing Taskets</h1>
+<h1>Active Taskets for <%= @user.email %></h1>
 
 <table>
   <thead>
@@ -11,7 +11,10 @@
   </thead>
 
   <tbody>
+    
     <% @taskets.each do |tasket| %>
+
+
       <tr>
         <td><%= tasket.name %></td>
         <td><%= link_to 'Show', tasket %></td>
@@ -20,6 +23,7 @@
       </tr>
     <% end %>
   </tbody>
+ 
 </table>
 
 <br>

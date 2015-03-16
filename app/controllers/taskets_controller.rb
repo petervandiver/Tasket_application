@@ -5,6 +5,8 @@ class TasketsController < ApplicationController
   # GET /taskets.json
   def index
     @taskets = Tasket.all
+    @user = current_user
+
   end
 
   # GET /taskets/1
@@ -69,6 +71,6 @@ class TasketsController < ApplicationController
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def tasket_params
-      params.require(:tasket).permit(:name)
+      params.require(:tasket).permit(:name, :user_id)
     end
 end

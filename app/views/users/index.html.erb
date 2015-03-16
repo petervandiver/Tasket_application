@@ -1,0 +1,16 @@
+<h3>Active Taskets for <%= @user.email %></h3>
+
+
+<p>
+<% @taskets.each do |tasket| %>
+<h3><%= tasket.name %></h3> 
+    
+        <% tasket.tasks.each do |task| %>
+        <h5>Tasks-</h5>
+        <ul>
+        <li><%= task.name %> | Status: <%= task.status %> | Due Date: <%= task.due_date %> | Due Time: <%= task.due_time %></li>
+        </ul>
+        <% end %>
+
+<% end %>
+</p>

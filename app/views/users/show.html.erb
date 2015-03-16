@@ -1,0 +1,24 @@
+<h1>Active Taskets for <%= current_user.email %></h1>
+
+<% @user.taskets.each do |tasket|%>
+	
+  <h3><%= @user.tasket.name %></h3>
+		
+    <tbody>
+    <% tasket.tasks.each do |task| %>
+      <tr>
+        <td><%= task.name %></td>
+        <td><%= task.description %></td>
+        <td><%= task.due_date %></td>
+        <td><%= task.due_time %></td>
+        <td><%= task.status %></td>
+        <td><%= task.tasket_id %></td>
+        <td><%= link_to 'Show', task %></td>
+        <td><%= link_to 'Edit', edit_task_path(task) %></td>
+        <td><%= link_to 'Destroy', task, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+
+<% end %>
+

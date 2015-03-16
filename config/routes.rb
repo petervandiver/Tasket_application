@@ -1,7 +1,9 @@
 Rails.application.routes.draw do
+  get 'users/show'
+
   devise_for :admin_users, ActiveAdmin::Devise.config
   ActiveAdmin.routes(self)
-  devise_for :users
+  devise_for :users, controllers: { sessions: "users/sessions" }
   
   get 'static_pages/home'
 
@@ -17,6 +19,7 @@ Rails.application.routes.draw do
   #   registrations: 'user/registrations'
   # }
 
+  resources :users
 
   resources :tasks
 
