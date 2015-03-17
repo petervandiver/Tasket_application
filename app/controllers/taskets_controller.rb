@@ -27,9 +27,14 @@ class TasketsController < ApplicationController
   # POST /taskets.json
   def create
     @tasket = Tasket.new(tasket_params)
-
+    @user = current_user
     respond_to do |format|
       if @tasket.save
+
+        # Sends email to user when user is created.
+      TasketMailer.welcome_email(@user).deliver
+
+
         format.html { redirect_to @tasket, notice: 'Tasket was successfully created.' }
         format.json { render :show, status: :created, location: @tasket }
       else
