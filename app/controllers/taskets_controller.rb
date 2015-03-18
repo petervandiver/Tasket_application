@@ -1,6 +1,18 @@
 class TasketsController < ApplicationController
   before_action :set_tasket, only: [:show, :edit, :update, :destroy]
 
+  def daily_update
+    User.all.each do |user|
+      TasketMailer.daily_email(user).deliver_now!
+    end
+  end
+
+  def welcome_update
+    User.all.each do |user|
+    TasketMailer.welcome_email(user).deliver
+    end
+  end
+
   # GET /taskets
   # GET /taskets.json
   def index

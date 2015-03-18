@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta content='text/html; charset=UTF-8' http-equiv='Content-Type' />
+  </head>
+  <body>
+    <h1>Hi <%= @user.email %> Daily Update below!</h1>
+    <p>
+<% @taskets.each do |tasket| %>
+<h3><%= tasket.name %></h3> 
+    
+        <% tasket.tasks.each do |task| %>
+        
+        <ul>
+        <li><%= task.name %> | Status: <%= task.status %> | Due Date: <%= task.due_date %> | Due Time: <%= task.due_time %></li>
+        </ul>
+        <% end %>
+
+<% end %>
+</p>
+  </body>
+</html>
