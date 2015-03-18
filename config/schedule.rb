@@ -26,13 +26,13 @@ require File.expand_path(File.dirname(__FILE__) + "/../config/environment")
 
 
 # Mailing schedule
-	every 1.minute do
-		rake 'send_daily_email', environment: 'development'	
-	end
+	# every 1.minute do
+	# 	rake 'send_daily_email', environment: 'development'	
+	# end
 
-	every :reboot do
-		rake 'send_daily_email', environment: 'development'
-	end
+	# every :reboot do
+	# 	rake 'send_daily_email', environment: 'development'
+	# end
 
 	# every 2.minutes do
 	# 	runner 'TasketsController.daily_email', environment: 'development'
@@ -42,7 +42,7 @@ require File.expand_path(File.dirname(__FILE__) + "/../config/environment")
 	# 	runner 'TasketsController.daily_email', environment: 'development'
 	# end
 
-	every 2.minutes do
+	every 20.minutes do
 		runner "User.all.each {|user| TasketMailer.daily_email(user).deliver_now! }", environment: 'development'
 	end
 

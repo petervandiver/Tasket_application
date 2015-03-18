@@ -1,5 +1,5 @@
 class UsersController < ApplicationController
-  
+  before_action only: [:show, :edit, :update, :destroy]
 
   def show
   		@user = current_user
@@ -11,5 +11,7 @@ def index
   		@tasks = current_user.tasks
 
   end
+
+
 
 end

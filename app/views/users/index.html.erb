@@ -1,16 +1,29 @@
-<h3>Active Taskets for <%= @user.email %></h3>
+<p id="notice"><%= notice %></p>
 
+<h1> <%= @user.email %></h1>
 
-<p>
-<% @taskets.each do |tasket| %>
-<h3><%= tasket.name %></h3> 
+<table>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
     
-        <% tasket.tasks.each do |task| %>
-        
-        <ul>
-        <li><%= task.name %> | Status: <%= task.status %> | Due Date: <%= task.due_date %> | Due Time: <%= task.due_time %></li>
-        </ul>
-        <% end %>
+ 
 
-<% end %>
-</p>
+
+      <tr>
+        <td><%= @user.email %></td>
+        <td><%= link_to 'Show', @user%></td>
+        <td><%= link_to 'Edit', edit_user_path(@user) %></td>
+        <td><%= link_to 'Destroy', @user, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+ 
+  </tbody>
+ 
+</table>
+
+
