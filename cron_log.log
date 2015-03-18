@@ -2700,3 +2700,288 @@ SyntaxError: /Users/petervandiver/Desktop/programs/Tasket_application/lib/tasks/
 /Users/petervandiver/.rvm/gems/ruby-2.2.0/gems/railties-4.2.0/lib/rails/engine.rb:453:in `load_tasks'
 /Users/petervandiver/Desktop/programs/Tasket_application/Rakefile:6:in `<top (required)>'
 (See full trace by running task with --trace)
+rake aborted!
+SyntaxError: /Users/petervandiver/Desktop/programs/Tasket_application/lib/tasks/email_sends.rake:8: syntax error, unexpected ',', expecting keyword_end
+...daily_email(user).deliver_now!, environment: 'development'
+...                               ^
+/Users/petervandiver/.rvm/gems/ruby-2.2.0/gems/activesupport-4.2.0/lib/active_support/dependencies.rb:268:in `load'
+/Users/petervandiver/.rvm/gems/ruby-2.2.0/gems/activesupport-4.2.0/lib/active_support/dependencies.rb:268:in `block in load'
+/Users/petervandiver/.rvm/gems/ruby-2.2.0/gems/activesupport-4.2.0/lib/active_support/dependencies.rb:240:in `load_dependency'
+/Users/petervandiver/.rvm/gems/ruby-2.2.0/gems/activesupport-4.2.0/lib/active_support/dependencies.rb:268:in `load'
+/Users/petervandiver/.rvm/gems/ruby-2.2.0/gems/railties-4.2.0/lib/rails/engine.rb:658:in `block in run_tasks_blocks'
+/Users/petervandiver/.rvm/gems/ruby-2.2.0/gems/railties-4.2.0/lib/rails/engine.rb:658:in `each'
+/Users/petervandiver/.rvm/gems/ruby-2.2.0/gems/railties-4.2.0/lib/rails/engine.rb:658:in `run_tasks_blocks'
+/Users/petervandiver/.rvm/gems/ruby-2.2.0/gems/railties-4.2.0/lib/rails/application.rb:438:in `run_tasks_blocks'
+/Users/petervandiver/.rvm/gems/ruby-2.2.0/gems/railties-4.2.0/lib/rails/engine.rb:453:in `load_tasks'
+/Users/petervandiver/Desktop/programs/Tasket_application/Rakefile:6:in `<top (required)>'
+(See full trace by running task with --trace)
+rake aborted!
+SyntaxError: /Users/petervandiver/Desktop/programs/Tasket_application/lib/tasks/email_sends.rake:8: syntax error, unexpected ',', expecting keyword_end
+...daily_email(user).deliver_now!, environment: 'development'
+...                               ^
+/Users/petervandiver/.rvm/gems/ruby-2.2.0/gems/activesupport-4.2.0/lib/active_support/dependencies.rb:268:in `load'
+/Users/petervandiver/.rvm/gems/ruby-2.2.0/gems/activesupport-4.2.0/lib/active_support/dependencies.rb:268:in `block in load'
+/Users/petervandiver/.rvm/gems/ruby-2.2.0/gems/activesupport-4.2.0/lib/active_support/dependencies.rb:240:in `load_dependency'
+/Users/petervandiver/.rvm/gems/ruby-2.2.0/gems/activesupport-4.2.0/lib/active_support/dependencies.rb:268:in `load'
+/Users/petervandiver/.rvm/gems/ruby-2.2.0/gems/railties-4.2.0/lib/rails/engine.rb:658:in `block in run_tasks_blocks'
+/Users/petervandiver/.rvm/gems/ruby-2.2.0/gems/railties-4.2.0/lib/rails/engine.rb:658:in `each'
+/Users/petervandiver/.rvm/gems/ruby-2.2.0/gems/railties-4.2.0/lib/rails/engine.rb:658:in `run_tasks_blocks'
+/Users/petervandiver/.rvm/gems/ruby-2.2.0/gems/railties-4.2.0/lib/rails/application.rb:438:in `run_tasks_blocks'
+/Users/petervandiver/.rvm/gems/ruby-2.2.0/gems/railties-4.2.0/lib/rails/engine.rb:453:in `load_tasks'
+/Users/petervandiver/Desktop/programs/Tasket_application/Rakefile:6:in `<top (required)>'
+(See full trace by running task with --trace)
+rake aborted!
+SyntaxError: /Users/petervandiver/Desktop/programs/Tasket_application/lib/tasks/email_sends.rake:8: syntax error, unexpected ',', expecting keyword_end
+...daily_email(user).deliver_now!, environment: 'development'
+...                               ^
+/Users/petervandiver/.rvm/gems/ruby-2.2.0/gems/activesupport-4.2.0/lib/active_support/dependencies.rb:268:in `load'
+/Users/petervandiver/.rvm/gems/ruby-2.2.0/gems/activesupport-4.2.0/lib/active_support/dependencies.rb:268:in `block in load'
+/Users/petervandiver/.rvm/gems/ruby-2.2.0/gems/activesupport-4.2.0/lib/active_support/dependencies.rb:240:in `load_dependency'
+/Users/petervandiver/.rvm/gems/ruby-2.2.0/gems/activesupport-4.2.0/lib/active_support/dependencies.rb:268:in `load'
+/Users/petervandiver/.rvm/gems/ruby-2.2.0/gems/railties-4.2.0/lib/rails/engine.rb:658:in `block in run_tasks_blocks'
+/Users/petervandiver/.rvm/gems/ruby-2.2.0/gems/railties-4.2.0/lib/rails/engine.rb:658:in `each'
+/Users/petervandiver/.rvm/gems/ruby-2.2.0/gems/railties-4.2.0/lib/rails/engine.rb:658:in `run_tasks_blocks'
+/Users/petervandiver/.rvm/gems/ruby-2.2.0/gems/railties-4.2.0/lib/rails/application.rb:438:in `run_tasks_blocks'
+/Users/petervandiver/.rvm/gems/ruby-2.2.0/gems/railties-4.2.0/lib/rails/engine.rb:453:in `load_tasks'
+/Users/petervandiver/Desktop/programs/Tasket_application/Rakefile:6:in `<top (required)>'
+(See full trace by running task with --trace)
+rake aborted!
+SyntaxError: /Users/petervandiver/Desktop/programs/Tasket_application/lib/tasks/email_sends.rake:8: syntax error, unexpected ',', expecting keyword_end
+...daily_email(user).deliver_now!, environment: 'development'
+...                               ^
+/Users/petervandiver/.rvm/gems/ruby-2.2.0/gems/activesupport-4.2.0/lib/active_support/dependencies.rb:268:in `load'
+/Users/petervandiver/.rvm/gems/ruby-2.2.0/gems/activesupport-4.2.0/lib/active_support/dependencies.rb:268:in `block in load'
+/Users/petervandiver/.rvm/gems/ruby-2.2.0/gems/activesupport-4.2.0/lib/active_support/dependencies.rb:240:in `load_dependency'
+/Users/petervandiver/.rvm/gems/ruby-2.2.0/gems/activesupport-4.2.0/lib/active_support/dependencies.rb:268:in `load'
+/Users/petervandiver/.rvm/gems/ruby-2.2.0/gems/railties-4.2.0/lib/rails/engine.rb:658:in `block in run_tasks_blocks'
+/Users/petervandiver/.rvm/gems/ruby-2.2.0/gems/railties-4.2.0/lib/rails/engine.rb:658:in `each'
+/Users/petervandiver/.rvm/gems/ruby-2.2.0/gems/railties-4.2.0/lib/rails/engine.rb:658:in `run_tasks_blocks'
+/Users/petervandiver/.rvm/gems/ruby-2.2.0/gems/railties-4.2.0/lib/rails/application.rb:438:in `run_tasks_blocks'
+/Users/petervandiver/.rvm/gems/ruby-2.2.0/gems/railties-4.2.0/lib/rails/engine.rb:453:in `load_tasks'
+/Users/petervandiver/Desktop/programs/Tasket_application/Rakefile:6:in `<top (required)>'
+(See full trace by running task with --trace)
+rake aborted!
+SyntaxError: /Users/petervandiver/Desktop/programs/Tasket_application/lib/tasks/email_sends.rake:8: syntax error, unexpected ',', expecting keyword_end
+...daily_email(user).deliver_now!, environment: 'development'
+...                               ^
+/Users/petervandiver/.rvm/gems/ruby-2.2.0/gems/activesupport-4.2.0/lib/active_support/dependencies.rb:268:in `load'
+/Users/petervandiver/.rvm/gems/ruby-2.2.0/gems/activesupport-4.2.0/lib/active_support/dependencies.rb:268:in `block in load'
+/Users/petervandiver/.rvm/gems/ruby-2.2.0/gems/activesupport-4.2.0/lib/active_support/dependencies.rb:240:in `load_dependency'
+/Users/petervandiver/.rvm/gems/ruby-2.2.0/gems/activesupport-4.2.0/lib/active_support/dependencies.rb:268:in `load'
+/Users/petervandiver/.rvm/gems/ruby-2.2.0/gems/railties-4.2.0/lib/rails/engine.rb:658:in `block in run_tasks_blocks'
+/Users/petervandiver/.rvm/gems/ruby-2.2.0/gems/railties-4.2.0/lib/rails/engine.rb:658:in `each'
+/Users/petervandiver/.rvm/gems/ruby-2.2.0/gems/railties-4.2.0/lib/rails/engine.rb:658:in `run_tasks_blocks'
+/Users/petervandiver/.rvm/gems/ruby-2.2.0/gems/railties-4.2.0/lib/rails/application.rb:438:in `run_tasks_blocks'
+/Users/petervandiver/.rvm/gems/ruby-2.2.0/gems/railties-4.2.0/lib/rails/engine.rb:453:in `load_tasks'
+/Users/petervandiver/Desktop/programs/Tasket_application/Rakefile:6:in `<top (required)>'
+(See full trace by running task with --trace)
+rake aborted!
+SyntaxError: /Users/petervandiver/Desktop/programs/Tasket_application/lib/tasks/email_sends.rake:8: syntax error, unexpected ',', expecting keyword_end
+...daily_email(user).deliver_now!, environment: 'development'
+...                               ^
+/Users/petervandiver/.rvm/gems/ruby-2.2.0/gems/activesupport-4.2.0/lib/active_support/dependencies.rb:268:in `load'
+/Users/petervandiver/.rvm/gems/ruby-2.2.0/gems/activesupport-4.2.0/lib/active_support/dependencies.rb:268:in `block in load'
+/Users/petervandiver/.rvm/gems/ruby-2.2.0/gems/activesupport-4.2.0/lib/active_support/dependencies.rb:240:in `load_dependency'
+/Users/petervandiver/.rvm/gems/ruby-2.2.0/gems/activesupport-4.2.0/lib/active_support/dependencies.rb:268:in `load'
+/Users/petervandiver/.rvm/gems/ruby-2.2.0/gems/railties-4.2.0/lib/rails/engine.rb:658:in `block in run_tasks_blocks'
+/Users/petervandiver/.rvm/gems/ruby-2.2.0/gems/railties-4.2.0/lib/rails/engine.rb:658:in `each'
+/Users/petervandiver/.rvm/gems/ruby-2.2.0/gems/railties-4.2.0/lib/rails/engine.rb:658:in `run_tasks_blocks'
+/Users/petervandiver/.rvm/gems/ruby-2.2.0/gems/railties-4.2.0/lib/rails/application.rb:438:in `run_tasks_blocks'
+/Users/petervandiver/.rvm/gems/ruby-2.2.0/gems/railties-4.2.0/lib/rails/engine.rb:453:in `load_tasks'
+/Users/petervandiver/Desktop/programs/Tasket_application/Rakefile:6:in `<top (required)>'
+(See full trace by running task with --trace)
+rake aborted!
+SyntaxError: /Users/petervandiver/Desktop/programs/Tasket_application/lib/tasks/email_sends.rake:8: syntax error, unexpected ',', expecting keyword_end
+...daily_email(user).deliver_now!, environment: 'development'
+...                               ^
+/Users/petervandiver/.rvm/gems/ruby-2.2.0/gems/activesupport-4.2.0/lib/active_support/dependencies.rb:268:in `load'
+/Users/petervandiver/.rvm/gems/ruby-2.2.0/gems/activesupport-4.2.0/lib/active_support/dependencies.rb:268:in `block in load'
+/Users/petervandiver/.rvm/gems/ruby-2.2.0/gems/activesupport-4.2.0/lib/active_support/dependencies.rb:240:in `load_dependency'
+/Users/petervandiver/.rvm/gems/ruby-2.2.0/gems/activesupport-4.2.0/lib/active_support/dependencies.rb:268:in `load'
+/Users/petervandiver/.rvm/gems/ruby-2.2.0/gems/railties-4.2.0/lib/rails/engine.rb:658:in `block in run_tasks_blocks'
+/Users/petervandiver/.rvm/gems/ruby-2.2.0/gems/railties-4.2.0/lib/rails/engine.rb:658:in `each'
+/Users/petervandiver/.rvm/gems/ruby-2.2.0/gems/railties-4.2.0/lib/rails/engine.rb:658:in `run_tasks_blocks'
+/Users/petervandiver/.rvm/gems/ruby-2.2.0/gems/railties-4.2.0/lib/rails/application.rb:438:in `run_tasks_blocks'
+/Users/petervandiver/.rvm/gems/ruby-2.2.0/gems/railties-4.2.0/lib/rails/engine.rb:453:in `load_tasks'
+/Users/petervandiver/Desktop/programs/Tasket_application/Rakefile:6:in `<top (required)>'
+(See full trace by running task with --trace)
+rake aborted!
+SyntaxError: /Users/petervandiver/Desktop/programs/Tasket_application/lib/tasks/email_sends.rake:8: syntax error, unexpected ',', expecting keyword_end
+...daily_email(user).deliver_now!, environment: 'development'
+...                               ^
+/Users/petervandiver/.rvm/gems/ruby-2.2.0/gems/activesupport-4.2.0/lib/active_support/dependencies.rb:268:in `load'
+/Users/petervandiver/.rvm/gems/ruby-2.2.0/gems/activesupport-4.2.0/lib/active_support/dependencies.rb:268:in `block in load'
+/Users/petervandiver/.rvm/gems/ruby-2.2.0/gems/activesupport-4.2.0/lib/active_support/dependencies.rb:240:in `load_dependency'
+/Users/petervandiver/.rvm/gems/ruby-2.2.0/gems/activesupport-4.2.0/lib/active_support/dependencies.rb:268:in `load'
+/Users/petervandiver/.rvm/gems/ruby-2.2.0/gems/railties-4.2.0/lib/rails/engine.rb:658:in `block in run_tasks_blocks'
+/Users/petervandiver/.rvm/gems/ruby-2.2.0/gems/railties-4.2.0/lib/rails/engine.rb:658:in `each'
+/Users/petervandiver/.rvm/gems/ruby-2.2.0/gems/railties-4.2.0/lib/rails/engine.rb:658:in `run_tasks_blocks'
+/Users/petervandiver/.rvm/gems/ruby-2.2.0/gems/railties-4.2.0/lib/rails/application.rb:438:in `run_tasks_blocks'
+/Users/petervandiver/.rvm/gems/ruby-2.2.0/gems/railties-4.2.0/lib/rails/engine.rb:453:in `load_tasks'
+/Users/petervandiver/Desktop/programs/Tasket_application/Rakefile:6:in `<top (required)>'
+(See full trace by running task with --trace)
+rake aborted!
+SyntaxError: /Users/petervandiver/Desktop/programs/Tasket_application/lib/tasks/email_sends.rake:8: syntax error, unexpected ',', expecting keyword_end
+...daily_email(user).deliver_now!, environment: 'development'
+...                               ^
+/Users/petervandiver/.rvm/gems/ruby-2.2.0/gems/activesupport-4.2.0/lib/active_support/dependencies.rb:268:in `load'
+/Users/petervandiver/.rvm/gems/ruby-2.2.0/gems/activesupport-4.2.0/lib/active_support/dependencies.rb:268:in `block in load'
+/Users/petervandiver/.rvm/gems/ruby-2.2.0/gems/activesupport-4.2.0/lib/active_support/dependencies.rb:240:in `load_dependency'
+/Users/petervandiver/.rvm/gems/ruby-2.2.0/gems/activesupport-4.2.0/lib/active_support/dependencies.rb:268:in `load'
+/Users/petervandiver/.rvm/gems/ruby-2.2.0/gems/railties-4.2.0/lib/rails/engine.rb:658:in `block in run_tasks_blocks'
+/Users/petervandiver/.rvm/gems/ruby-2.2.0/gems/railties-4.2.0/lib/rails/engine.rb:658:in `each'
+/Users/petervandiver/.rvm/gems/ruby-2.2.0/gems/railties-4.2.0/lib/rails/engine.rb:658:in `run_tasks_blocks'
+/Users/petervandiver/.rvm/gems/ruby-2.2.0/gems/railties-4.2.0/lib/rails/application.rb:438:in `run_tasks_blocks'
+/Users/petervandiver/.rvm/gems/ruby-2.2.0/gems/railties-4.2.0/lib/rails/engine.rb:453:in `load_tasks'
+/Users/petervandiver/Desktop/programs/Tasket_application/Rakefile:6:in `<top (required)>'
+(See full trace by running task with --trace)
+rake aborted!
+SyntaxError: /Users/petervandiver/Desktop/programs/Tasket_application/lib/tasks/email_sends.rake:8: syntax error, unexpected ',', expecting keyword_end
+...daily_email(user).deliver_now!, environment: 'development'
+...                               ^
+/Users/petervandiver/.rvm/gems/ruby-2.2.0/gems/activesupport-4.2.0/lib/active_support/dependencies.rb:268:in `load'
+/Users/petervandiver/.rvm/gems/ruby-2.2.0/gems/activesupport-4.2.0/lib/active_support/dependencies.rb:268:in `block in load'
+/Users/petervandiver/.rvm/gems/ruby-2.2.0/gems/activesupport-4.2.0/lib/active_support/dependencies.rb:240:in `load_dependency'
+/Users/petervandiver/.rvm/gems/ruby-2.2.0/gems/activesupport-4.2.0/lib/active_support/dependencies.rb:268:in `load'
+/Users/petervandiver/.rvm/gems/ruby-2.2.0/gems/railties-4.2.0/lib/rails/engine.rb:658:in `block in run_tasks_blocks'
+/Users/petervandiver/.rvm/gems/ruby-2.2.0/gems/railties-4.2.0/lib/rails/engine.rb:658:in `each'
+/Users/petervandiver/.rvm/gems/ruby-2.2.0/gems/railties-4.2.0/lib/rails/engine.rb:658:in `run_tasks_blocks'
+/Users/petervandiver/.rvm/gems/ruby-2.2.0/gems/railties-4.2.0/lib/rails/application.rb:438:in `run_tasks_blocks'
+/Users/petervandiver/.rvm/gems/ruby-2.2.0/gems/railties-4.2.0/lib/rails/engine.rb:453:in `load_tasks'
+/Users/petervandiver/Desktop/programs/Tasket_application/Rakefile:6:in `<top (required)>'
+(See full trace by running task with --trace)
+rake aborted!
+SyntaxError: /Users/petervandiver/Desktop/programs/Tasket_application/lib/tasks/email_sends.rake:8: syntax error, unexpected ',', expecting keyword_end
+...daily_email(user).deliver_now!, environment: 'development'
+...                               ^
+/Users/petervandiver/.rvm/gems/ruby-2.2.0/gems/activesupport-4.2.0/lib/active_support/dependencies.rb:268:in `load'
+/Users/petervandiver/.rvm/gems/ruby-2.2.0/gems/activesupport-4.2.0/lib/active_support/dependencies.rb:268:in `block in load'
+/Users/petervandiver/.rvm/gems/ruby-2.2.0/gems/activesupport-4.2.0/lib/active_support/dependencies.rb:240:in `load_dependency'
+/Users/petervandiver/.rvm/gems/ruby-2.2.0/gems/activesupport-4.2.0/lib/active_support/dependencies.rb:268:in `load'
+/Users/petervandiver/.rvm/gems/ruby-2.2.0/gems/railties-4.2.0/lib/rails/engine.rb:658:in `block in run_tasks_blocks'
+/Users/petervandiver/.rvm/gems/ruby-2.2.0/gems/railties-4.2.0/lib/rails/engine.rb:658:in `each'
+/Users/petervandiver/.rvm/gems/ruby-2.2.0/gems/railties-4.2.0/lib/rails/engine.rb:658:in `run_tasks_blocks'
+/Users/petervandiver/.rvm/gems/ruby-2.2.0/gems/railties-4.2.0/lib/rails/application.rb:438:in `run_tasks_blocks'
+/Users/petervandiver/.rvm/gems/ruby-2.2.0/gems/railties-4.2.0/lib/rails/engine.rb:453:in `load_tasks'
+/Users/petervandiver/Desktop/programs/Tasket_application/Rakefile:6:in `<top (required)>'
+(See full trace by running task with --trace)
+rake aborted!
+SyntaxError: /Users/petervandiver/Desktop/programs/Tasket_application/lib/tasks/email_sends.rake:8: syntax error, unexpected ',', expecting keyword_end
+...daily_email(user).deliver_now!, environment: 'development'
+...                               ^
+/Users/petervandiver/.rvm/gems/ruby-2.2.0/gems/activesupport-4.2.0/lib/active_support/dependencies.rb:268:in `load'
+/Users/petervandiver/.rvm/gems/ruby-2.2.0/gems/activesupport-4.2.0/lib/active_support/dependencies.rb:268:in `block in load'
+/Users/petervandiver/.rvm/gems/ruby-2.2.0/gems/activesupport-4.2.0/lib/active_support/dependencies.rb:240:in `load_dependency'
+/Users/petervandiver/.rvm/gems/ruby-2.2.0/gems/activesupport-4.2.0/lib/active_support/dependencies.rb:268:in `load'
+/Users/petervandiver/.rvm/gems/ruby-2.2.0/gems/railties-4.2.0/lib/rails/engine.rb:658:in `block in run_tasks_blocks'
+/Users/petervandiver/.rvm/gems/ruby-2.2.0/gems/railties-4.2.0/lib/rails/engine.rb:658:in `each'
+/Users/petervandiver/.rvm/gems/ruby-2.2.0/gems/railties-4.2.0/lib/rails/engine.rb:658:in `run_tasks_blocks'
+/Users/petervandiver/.rvm/gems/ruby-2.2.0/gems/railties-4.2.0/lib/rails/application.rb:438:in `run_tasks_blocks'
+/Users/petervandiver/.rvm/gems/ruby-2.2.0/gems/railties-4.2.0/lib/rails/engine.rb:453:in `load_tasks'
+/Users/petervandiver/Desktop/programs/Tasket_application/Rakefile:6:in `<top (required)>'
+(See full trace by running task with --trace)
+rake aborted!
+SyntaxError: /Users/petervandiver/Desktop/programs/Tasket_application/lib/tasks/email_sends.rake:8: syntax error, unexpected ',', expecting keyword_end
+...daily_email(user).deliver_now!, environment: 'development'
+...                               ^
+/Users/petervandiver/.rvm/gems/ruby-2.2.0/gems/activesupport-4.2.0/lib/active_support/dependencies.rb:268:in `load'
+/Users/petervandiver/.rvm/gems/ruby-2.2.0/gems/activesupport-4.2.0/lib/active_support/dependencies.rb:268:in `block in load'
+/Users/petervandiver/.rvm/gems/ruby-2.2.0/gems/activesupport-4.2.0/lib/active_support/dependencies.rb:240:in `load_dependency'
+/Users/petervandiver/.rvm/gems/ruby-2.2.0/gems/activesupport-4.2.0/lib/active_support/dependencies.rb:268:in `load'
+/Users/petervandiver/.rvm/gems/ruby-2.2.0/gems/railties-4.2.0/lib/rails/engine.rb:658:in `block in run_tasks_blocks'
+/Users/petervandiver/.rvm/gems/ruby-2.2.0/gems/railties-4.2.0/lib/rails/engine.rb:658:in `each'
+/Users/petervandiver/.rvm/gems/ruby-2.2.0/gems/railties-4.2.0/lib/rails/engine.rb:658:in `run_tasks_blocks'
+/Users/petervandiver/.rvm/gems/ruby-2.2.0/gems/railties-4.2.0/lib/rails/application.rb:438:in `run_tasks_blocks'
+/Users/petervandiver/.rvm/gems/ruby-2.2.0/gems/railties-4.2.0/lib/rails/engine.rb:453:in `load_tasks'
+/Users/petervandiver/Desktop/programs/Tasket_application/Rakefile:6:in `<top (required)>'
+(See full trace by running task with --trace)
+rake aborted!
+SyntaxError: /Users/petervandiver/Desktop/programs/Tasket_application/lib/tasks/email_sends.rake:8: syntax error, unexpected ',', expecting keyword_end
+...daily_email(user).deliver_now!, environment: 'development'
+...                               ^
+/Users/petervandiver/.rvm/gems/ruby-2.2.0/gems/activesupport-4.2.0/lib/active_support/dependencies.rb:268:in `load'
+/Users/petervandiver/.rvm/gems/ruby-2.2.0/gems/activesupport-4.2.0/lib/active_support/dependencies.rb:268:in `block in load'
+/Users/petervandiver/.rvm/gems/ruby-2.2.0/gems/activesupport-4.2.0/lib/active_support/dependencies.rb:240:in `load_dependency'
+/Users/petervandiver/.rvm/gems/ruby-2.2.0/gems/activesupport-4.2.0/lib/active_support/dependencies.rb:268:in `load'
+/Users/petervandiver/.rvm/gems/ruby-2.2.0/gems/railties-4.2.0/lib/rails/engine.rb:658:in `block in run_tasks_blocks'
+/Users/petervandiver/.rvm/gems/ruby-2.2.0/gems/railties-4.2.0/lib/rails/engine.rb:658:in `each'
+/Users/petervandiver/.rvm/gems/ruby-2.2.0/gems/railties-4.2.0/lib/rails/engine.rb:658:in `run_tasks_blocks'
+/Users/petervandiver/.rvm/gems/ruby-2.2.0/gems/railties-4.2.0/lib/rails/application.rb:438:in `run_tasks_blocks'
+/Users/petervandiver/.rvm/gems/ruby-2.2.0/gems/railties-4.2.0/lib/rails/engine.rb:453:in `load_tasks'
+/Users/petervandiver/Desktop/programs/Tasket_application/Rakefile:6:in `<top (required)>'
+(See full trace by running task with --trace)
+rake aborted!
+SyntaxError: /Users/petervandiver/Desktop/programs/Tasket_application/lib/tasks/email_sends.rake:8: syntax error, unexpected ',', expecting keyword_end
+...daily_email(user).deliver_now!, environment: 'development'
+...                               ^
+/Users/petervandiver/.rvm/gems/ruby-2.2.0/gems/activesupport-4.2.0/lib/active_support/dependencies.rb:268:in `load'
+/Users/petervandiver/.rvm/gems/ruby-2.2.0/gems/activesupport-4.2.0/lib/active_support/dependencies.rb:268:in `block in load'
+/Users/petervandiver/.rvm/gems/ruby-2.2.0/gems/activesupport-4.2.0/lib/active_support/dependencies.rb:240:in `load_dependency'
+/Users/petervandiver/.rvm/gems/ruby-2.2.0/gems/activesupport-4.2.0/lib/active_support/dependencies.rb:268:in `load'
+/Users/petervandiver/.rvm/gems/ruby-2.2.0/gems/railties-4.2.0/lib/rails/engine.rb:658:in `block in run_tasks_blocks'
+/Users/petervandiver/.rvm/gems/ruby-2.2.0/gems/railties-4.2.0/lib/rails/engine.rb:658:in `each'
+/Users/petervandiver/.rvm/gems/ruby-2.2.0/gems/railties-4.2.0/lib/rails/engine.rb:658:in `run_tasks_blocks'
+/Users/petervandiver/.rvm/gems/ruby-2.2.0/gems/railties-4.2.0/lib/rails/application.rb:438:in `run_tasks_blocks'
+/Users/petervandiver/.rvm/gems/ruby-2.2.0/gems/railties-4.2.0/lib/rails/engine.rb:453:in `load_tasks'
+/Users/petervandiver/Desktop/programs/Tasket_application/Rakefile:6:in `<top (required)>'
+(See full trace by running task with --trace)
+rake aborted!
+SyntaxError: /Users/petervandiver/Desktop/programs/Tasket_application/lib/tasks/email_sends.rake:8: syntax error, unexpected ',', expecting keyword_end
+...daily_email(user).deliver_now!, environment: 'development'
+...                               ^
+/Users/petervandiver/.rvm/gems/ruby-2.2.0/gems/activesupport-4.2.0/lib/active_support/dependencies.rb:268:in `load'
+/Users/petervandiver/.rvm/gems/ruby-2.2.0/gems/activesupport-4.2.0/lib/active_support/dependencies.rb:268:in `block in load'
+/Users/petervandiver/.rvm/gems/ruby-2.2.0/gems/activesupport-4.2.0/lib/active_support/dependencies.rb:240:in `load_dependency'
+/Users/petervandiver/.rvm/gems/ruby-2.2.0/gems/activesupport-4.2.0/lib/active_support/dependencies.rb:268:in `load'
+/Users/petervandiver/.rvm/gems/ruby-2.2.0/gems/railties-4.2.0/lib/rails/engine.rb:658:in `block in run_tasks_blocks'
+/Users/petervandiver/.rvm/gems/ruby-2.2.0/gems/railties-4.2.0/lib/rails/engine.rb:658:in `each'
+/Users/petervandiver/.rvm/gems/ruby-2.2.0/gems/railties-4.2.0/lib/rails/engine.rb:658:in `run_tasks_blocks'
+/Users/petervandiver/.rvm/gems/ruby-2.2.0/gems/railties-4.2.0/lib/rails/application.rb:438:in `run_tasks_blocks'
+/Users/petervandiver/.rvm/gems/ruby-2.2.0/gems/railties-4.2.0/lib/rails/engine.rb:453:in `load_tasks'
+/Users/petervandiver/Desktop/programs/Tasket_application/Rakefile:6:in `<top (required)>'
+(See full trace by running task with --trace)
+rake aborted!
+SyntaxError: /Users/petervandiver/Desktop/programs/Tasket_application/lib/tasks/email_sends.rake:8: syntax error, unexpected ',', expecting keyword_end
+...daily_email(user).deliver_now!, environment: 'development'
+...                               ^
+/Users/petervandiver/.rvm/gems/ruby-2.2.0/gems/activesupport-4.2.0/lib/active_support/dependencies.rb:268:in `load'
+/Users/petervandiver/.rvm/gems/ruby-2.2.0/gems/activesupport-4.2.0/lib/active_support/dependencies.rb:268:in `block in load'
+/Users/petervandiver/.rvm/gems/ruby-2.2.0/gems/activesupport-4.2.0/lib/active_support/dependencies.rb:240:in `load_dependency'
+/Users/petervandiver/.rvm/gems/ruby-2.2.0/gems/activesupport-4.2.0/lib/active_support/dependencies.rb:268:in `load'
+/Users/petervandiver/.rvm/gems/ruby-2.2.0/gems/railties-4.2.0/lib/rails/engine.rb:658:in `block in run_tasks_blocks'
+/Users/petervandiver/.rvm/gems/ruby-2.2.0/gems/railties-4.2.0/lib/rails/engine.rb:658:in `each'
+/Users/petervandiver/.rvm/gems/ruby-2.2.0/gems/railties-4.2.0/lib/rails/engine.rb:658:in `run_tasks_blocks'
+/Users/petervandiver/.rvm/gems/ruby-2.2.0/gems/railties-4.2.0/lib/rails/application.rb:438:in `run_tasks_blocks'
+/Users/petervandiver/.rvm/gems/ruby-2.2.0/gems/railties-4.2.0/lib/rails/engine.rb:453:in `load_tasks'
+/Users/petervandiver/Desktop/programs/Tasket_application/Rakefile:6:in `<top (required)>'
+(See full trace by running task with --trace)
+rake aborted!
+SyntaxError: /Users/petervandiver/Desktop/programs/Tasket_application/lib/tasks/email_sends.rake:8: syntax error, unexpected ',', expecting keyword_end
+...daily_email(user).deliver_now!, environment: 'development'
+...                               ^
+/Users/petervandiver/.rvm/gems/ruby-2.2.0/gems/activesupport-4.2.0/lib/active_support/dependencies.rb:268:in `load'
+/Users/petervandiver/.rvm/gems/ruby-2.2.0/gems/activesupport-4.2.0/lib/active_support/dependencies.rb:268:in `block in load'
+/Users/petervandiver/.rvm/gems/ruby-2.2.0/gems/activesupport-4.2.0/lib/active_support/dependencies.rb:240:in `load_dependency'
+/Users/petervandiver/.rvm/gems/ruby-2.2.0/gems/activesupport-4.2.0/lib/active_support/dependencies.rb:268:in `load'
+/Users/petervandiver/.rvm/gems/ruby-2.2.0/gems/railties-4.2.0/lib/rails/engine.rb:658:in `block in run_tasks_blocks'
+/Users/petervandiver/.rvm/gems/ruby-2.2.0/gems/railties-4.2.0/lib/rails/engine.rb:658:in `each'
+/Users/petervandiver/.rvm/gems/ruby-2.2.0/gems/railties-4.2.0/lib/rails/engine.rb:658:in `run_tasks_blocks'
+/Users/petervandiver/.rvm/gems/ruby-2.2.0/gems/railties-4.2.0/lib/rails/application.rb:438:in `run_tasks_blocks'
+/Users/petervandiver/.rvm/gems/ruby-2.2.0/gems/railties-4.2.0/lib/rails/engine.rb:453:in `load_tasks'
+/Users/petervandiver/Desktop/programs/Tasket_application/Rakefile:6:in `<top (required)>'
+(See full trace by running task with --trace)
+rake aborted!
+SyntaxError: /Users/petervandiver/Desktop/programs/Tasket_application/lib/tasks/email_sends.rake:8: syntax error, unexpected ',', expecting keyword_end
+...daily_email(user).deliver_now!, environment: 'development'
+...                               ^
+/Users/petervandiver/.rvm/gems/ruby-2.2.0/gems/activesupport-4.2.0/lib/active_support/dependencies.rb:268:in `load'
+/Users/petervandiver/.rvm/gems/ruby-2.2.0/gems/activesupport-4.2.0/lib/active_support/dependencies.rb:268:in `block in load'
+/Users/petervandiver/.rvm/gems/ruby-2.2.0/gems/activesupport-4.2.0/lib/active_support/dependencies.rb:240:in `load_dependency'
+/Users/petervandiver/.rvm/gems/ruby-2.2.0/gems/activesupport-4.2.0/lib/active_support/dependencies.rb:268:in `load'
+/Users/petervandiver/.rvm/gems/ruby-2.2.0/gems/railties-4.2.0/lib/rails/engine.rb:658:in `block in run_tasks_blocks'
+/Users/petervandiver/.rvm/gems/ruby-2.2.0/gems/railties-4.2.0/lib/rails/engine.rb:658:in `each'
+/Users/petervandiver/.rvm/gems/ruby-2.2.0/gems/railties-4.2.0/lib/rails/engine.rb:658:in `run_tasks_blocks'
+/Users/petervandiver/.rvm/gems/ruby-2.2.0/gems/railties-4.2.0/lib/rails/application.rb:438:in `run_tasks_blocks'
+/Users/petervandiver/.rvm/gems/ruby-2.2.0/gems/railties-4.2.0/lib/rails/engine.rb:453:in `load_tasks'
+/Users/petervandiver/Desktop/programs/Tasket_application/Rakefile:6:in `<top (required)>'
+(See full trace by running task with --trace)
