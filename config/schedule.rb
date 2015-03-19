@@ -43,7 +43,7 @@ require File.expand_path(File.dirname(__FILE__) + "/../config/environment")
 	# end
 	
 
-	every 2.minutes do
+	every 30.minutes do
 		runner "User.all.each {|user| TasketMailer.daily_email(user).deliver_now! }", environment: 'development'
 	end
 
