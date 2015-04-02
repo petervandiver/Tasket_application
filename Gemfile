@@ -1,5 +1,9 @@
 source 'https://rubygems.org'
 
+gem 'redis-namespace'
+
+gem 'redis', '3.0.0'
+
 gem 'whenever', :require => false
 
 gem 'figaro'
