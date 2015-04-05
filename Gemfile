@@ -1,5 +1,7 @@
 source 'https://rubygems.org'
 
+gem 'sidekiq'
+
 gem 'redis-namespace'
 
 gem 'redis', '3.0.0'
